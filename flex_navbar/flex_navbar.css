@@ -1,0 +1,59 @@
+.nav{
+display: flex;
+background-color: rgb(52, 50, 50);
+border-radius: 1%;
+justify-content: space-between;
+align-items: center;
+
+}
+.nav-title{
+    font-weight: bold;
+    font-family: cursive;
+}
+
+h1{
+    color: white;
+    margin: 5px;
+    font-size: 60px;
+}
+.nav-links{
+    display: flex;
+    color: transparent;
+}    
+.active{
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+
+
+}
+.home{
+    color: lightgray;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+.Find{
+    color: lightgray;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    background-color: rgba(145, 189, 15, 0.929);
+    color: white;
+    margin: 20px;
+    padding: 5px;
+    box-shadow: 2px 2px black;
+    font-size: 20px;
+}
+
+button{
+    width: 100px;
+}

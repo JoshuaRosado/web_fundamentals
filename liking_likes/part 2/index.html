@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking_Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="network">Network</h1>
+    </div>
+    <h1 class="feed">Your Feed</h1>
+    <div class="container">
+        <div class="main">
+            <div class="left_col">
+                <img class="user_circle" src="imgs/user-circle.png" alt="user_circle">
+                <p class="add"><a href="#">Add an avatar</a></p>
+                <h2 class="name">James Doe</h2>
+            </div>
+            <div class="right_col">
+                <div class="box1">
+                    <div class="row" onclick="like('l1')">
+                        <h1>Neil M</h1>
+                        <p class="likes"><span id="l1">9</span> like(s)</p>
+                        <p class="like"><a href="#">Like</a></p>
+                    </div>
+                    <div class="row2">
+                        <p class="paragraph">I just set up this new discord bot, let me <br>
+                            know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="row" onclick="like('l2')">
+                        <h1>Nichole K</h1>
+                        <p class="likes"><span id="l2">12</span> like(s)</p>
+                        <p class="like"><a href="#">Like</a></p>
+                    </div>
+                    <div class="row2">
+                        <p class="paragraph">Just finished my <a href="#">next comic</a> , check it out.</p>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="row" onclick="like('l3')">
+                        <h1>Jim R</h1>
+                        <p class="likes"><span id="l3">9</span> like(s)</p>
+                        <p class="like"><a href="#">Like</a></p>
+                    </div>
+                    <div class="row2">
+                        <p class="paragraph">I can't stop listening to the <a href="#">new album</a>.<br>
+                            Who else is liking it?</p>
+                            <script src="script.js"></script>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

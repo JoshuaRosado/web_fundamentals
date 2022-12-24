@@ -1,0 +1,25 @@
+h1{
+    background-color: black;
+    color: white;
+    font-weight: 900;
+
+
+}
+span{
+    color: turquoise;
+}
+h2{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+}
+h3{
+    background-color: lightsteelblue;
+    color: black;
+    text-align: right;
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-weight: lighter;
+}

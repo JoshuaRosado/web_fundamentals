@@ -1,0 +1,152 @@
+*{
+    font-family:sans-serif;
+}
+.nav{
+    display: flex;
+    align-items: baseline;
+    width: 1450px;
+    height: 120px;
+    background-color: rgb(158, 202, 255);
+    margin: -10px;
+    color: white;
+    justify-content: space-evenly;
+
+}
+    .nav a {
+        text-decoration: none;
+        list-style: none;
+        color:rgb(255, 255, 255);
+    }
+
+.title{
+    font-size: 52px;
+}
+.cities {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 30px;
+}
+p{
+    padding: 20px;
+    margin:20px;
+}
+.container{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1050px;
+    margin: 10px;
+    padding: 5px;
+    position: absolute;
+    left: 175px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.show{
+        margin-left:500px;
+        font-size: 20px;
+}
+.temperatures{
+    height: 40px;
+    width: 50px;
+    border: 3px solid black;
+    font-weight: bold;
+}
+
+.san_jose{
+    font-size: 50px;
+    font-weight: 500;
+}
+    
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: -40px;
+    padding: 10px;
+    height: 400px;
+    width: 1060px;
+}
+
+.col1 , .col2 , .col3 , .col4 {
+    margin: 10px;
+    height: 425px;
+    width: 225px;
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+}
+.assets{
+    height: 175px;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+
+}
+.day{
+    font-size: 35px;
+    font-weight: lighter;
+}
+.bottom{
+    font-size: 25px;
+}
+.red{
+    display: flex;
+    justify-content: flex-start;
+    margin: -25px 20px 20px 20px;
+    color: rgb(255, 68, 68);
+}
+.blue{
+    display:flex;
+    justify-content: flex-end;
+    margin: -55px 20px 20px 20px;
+    color: rgb(89, 89, 254);
+}
+.footer{
+    background-color: rgb(231, 231, 231);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    bottom: 0px;
+    border: 5px solid black;
+    width: 1040px;
+    height: 165px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: -12px;
+
+}
+
+.footer a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.cookie{
+    height: 100px;
+    width: 100px;
+    margin-right: -40px;
+}
+.stop{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.i_accept{
+    background-color: rgb(158, 202, 255);
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+    font-size: 20px;
+    font-weight: 900;
+    height: 35px;
+}

@@ -1,0 +1,50 @@
+.container{
+    height: 600px;
+    width: 1000px;
+    background-color: antiquewhite;
+    position: absolute;
+    right: 300px;
+    top: 100px;
+    border: 2px solid silver;
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px 10px silver;
+
+}
+.nav{
+    background-color: rgb(38, 161, 149);
+    width: 1000px;
+    height: 150px;
+
+}
+h1{
+    font-size: 45px;
+    padding-left: 10px;
+    margin: 20px;
+}
+
+.user{
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 30px;
+    border: 5px solid rgb(209, 207, 207);
+    border-radius: 50%;
+}
+
+.map_marker{
+    height: 40px;
+    margin-right: 20px;
+}
+.gear{
+    height: 15px;
+    margin-left: 20px;
+
+}
+p{
+    font-size: 25px;
+    margin:10px;
+    padding-left: 10px;
+}
+.edit{
+    font-size: 20px;
+}
+
